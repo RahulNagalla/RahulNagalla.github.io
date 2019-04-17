@@ -1109,5 +1109,8 @@ h6 {
   margin:0
 }
 #cright{
-  text-align: center
+  text-align: center;
+}
+#testp{
+  text-align: left;
 }
