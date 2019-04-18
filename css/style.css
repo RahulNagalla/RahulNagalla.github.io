@@ -891,7 +891,8 @@ h6 {
 }
 .footer-links a
 {
-  color:#fff
+  color:#fff;
+  padding:0 0;
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
