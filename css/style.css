@@ -2,7 +2,7 @@ body {
   background: #fff;
   color: #444;
   font-family: "Open Sans", sans-serif;
-  padding-top: 70px; 
+  padding-top: 70px;
 }
 
 .row {
@@ -168,7 +168,7 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 3px 0;
+  margin: 3px 0 ;
   max-height: 38px;
 }
 
@@ -182,10 +182,11 @@ h6 {
 
 #intro {
   width: 100%;
+  height: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
-  background-size: cover;
-  padding: 200px 0 120px 0;
+  /* background: url("../img/bump-collaboration-colleagues.jpg") center bottom no-repeat; */
+  background-size:  cover;
+  padding: 700px 0 120px 0;
 }
 
 #intro .intro-img {
