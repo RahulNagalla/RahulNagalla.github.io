@@ -5,4 +5,7 @@
   background: url("../img/bump-collaboration-colleagues.jpg") center bottom no-repeat;
   background-size:  cover;
   padding: 700px 0 120px 0;
+  background-position: center center;
+  background-attachment: fixed;
+
 }
