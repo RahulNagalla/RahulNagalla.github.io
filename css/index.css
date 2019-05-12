@@ -1,12 +1,73 @@
-#index-top {
+/* #index-top {
   width: 100%;
   height: 100%;
   position: relative;
-  /* background: url("../img/bump-collaboration-colleagues.jpg") center bottom no-repeat; */
   background: url("../img/1.jpeg") center bottom no-repeat;
   background-size:  cover;
   padding: 700px 0 120px 0;
   background-position: center center;
   background-attachment: fixed;
 
+} */
+
+#index-top {
+  width: 100%;
+  position: relative;
+  background: url("../img/1.jpeg") center bottom no-repeat;
+  background-size: cover;
+  padding: 300px 0 120px 0;
+}
+
+#index-top .index-top-img {
+  width: 50%;
+  float: right;
+}
+
+#index-top .index-top-info {
+  width: 50%;
+  float: left;
+}
+
+#index-top .index-top-info h2 {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 35px;
+  font-weight: 1000;
+  white-space: nowrap;
+}
+
+#index-top .index-top-info .btn-get-started,
+#index-top .index-top-info .btn-services {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  color: #fff;
+}
+
+#index-top .index-top-info .btn-get-started {
+  background: #007bff;
+  border: 2px solid #007bff;
+  color: #fff;
+}
+
+#index-top .index-top-info .btn-get-started:hover {
+  background: none;
+  border-color: #fff;
+  color: #fff;
+}
+
+#index-top .index-top-info .btn-services {
+  border: 2px solid #fff;
+}
+
+#index-top .index-top-info .btn-services:hover {
+  background: #007bff;
+  border-color: #007bff;
+  color: #fff;
 }
