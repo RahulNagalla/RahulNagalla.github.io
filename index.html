@@ -28,6 +28,8 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
+  <link href="css/load-more-button.css" rel="stylesheet">
+
 
 
 </head>
@@ -104,7 +106,7 @@
         <div class="row">
 
 
-          <div class="col-md-4 col-sm-6">
+          <div class="col-md-4 col-sm-6 blogBox ">
                 <div class="serviceBox">
                     <a href="services/webdev.html"><i class="service-icon fa fa-globe"></i></a>
                     <h3 class="title">WEB DEVELOPMENT</h3>
@@ -112,8 +114,8 @@
                         Web-site creation, updates
                     </p>
                 </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
+          </div>
+          <div class="col-md-4 col-sm-6 blogBox moreBox">
                 <div class="serviceBox">
                     <a href="services/productconcept.html"><i class="service-icon fa fa-lightbulb-o"></i></a>
                     <h3 class="title">PRODUCT MANAGEMENT </h3>
@@ -121,8 +123,8 @@
                         Feature list, Product requirements review
                     </p>
                 </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
+           </div>
+           <div class="col-md-4 col-sm-6 blogBox moreBox">
                 <div class="serviceBox">
                     <a href="services/productmanagement.html"><i class="service-icon fa fa-tasks"></i></a>
                     <h3 class="title">PROGRAM/ PROJECT MANAGEMENT </h3>
@@ -130,13 +132,13 @@
                         On-time delivery
                     </p>
                 </div>
-            </div>
-          </div>
+           </div>
+       </div>
           <br>
 
-          <div class="row">
+          <div class="row ">
 
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-6 blogBox moreBox" style="display: none;">
                 <div class="serviceBox">
                     <a href="services/resourcesplacement.html"><i class="service-icon fa fa-rocket"></i></a>
                     <h3 class="title">RESOURCES PLACEMENT </h3>
@@ -145,7 +147,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-6 blogBox moreBox" style="display: none;">
                 <div class="serviceBox">
                     <a href="services/contractmanufacturing.html"><i class="service-icon fa fa-industry"></i></a>
                     <h3 class="title">CONTRACT MANUFACTURING </h3>
@@ -154,7 +156,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-6 blogBox moreBox" style="display: none;">
                 <div class="serviceBox">
                     <a href="services/sde.html"><i class="service-icon fa fa-code"></i></a>
                     <h3 class="title">SOFTWARE DEVELOPMENT</h3>
@@ -165,9 +167,9 @@
             </div>
           </div>
           <br>
-
+          
           <div class="row">
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-6 blogBox moreBox" style="display: none;">
                 <div class="serviceBox">
                     <a href="services/mechanicalfirmwaredesign.html"><i class="service-icon fa fa-pencil"></i></a>
                     <h3 class="title">HARDWARE, and FIRMWARE</h3>
@@ -176,7 +178,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-6 blogBox moreBox" style="display: none;">
                 <div class="serviceBox">
                     <a href="services/testing.html"><i class="service-icon fa fa-question-circle"></i></a>
                     <h3 class="title">TESTING SERVICES</h3>
@@ -185,7 +187,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-6 blogBox moreBox" style="display: none;">
                 <div class="serviceBox">
                     <a href="services/mobiledev.html"><i class="service-icon fa fa-mobile"></i></a>
                     <h3 class="title">MOBILE APPLICATIONS DEVELOPMENT</h3>
@@ -194,13 +196,18 @@
                     </p>
                 </div>
             </div>
+        
+                      
+    <div id="loadMore" style="">
+      <a href="#">Load More</a>
+    </div>
 
 
         </div>
 
       </div>
     </section><!-- #services -->
-
+    
 
   </main>
 
@@ -279,6 +286,8 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="js/load-more-button.js"></script>
+
 
 </body>
 </html>
