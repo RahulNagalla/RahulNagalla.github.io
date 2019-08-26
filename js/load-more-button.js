@@ -1,5 +1,5 @@
 $( document ).ready(function () {
-  $(".moreBox").slice(0, 1).show();
+  $(".moreBox").slice(0, 5).show();
     if ($(".blogBox:hidden").length != 0) {
       $("#loadMore").show();
     }   
